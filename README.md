@@ -1,4 +1,4 @@
-# FedSTGraph 🚧
+# FedSTGraph: A Benchmark of Spatio-Temporal Graphs for Federated Settings 🚧
 This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different scenarios.
 
 ## Table of Contents
