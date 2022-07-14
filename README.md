@@ -1,5 +1,5 @@
 # FedSTGraph :construction:
-This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different scenarios. We provide code for federated task partition and visualization (coming soon...).
+This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different scenarios.
 
 ## Contents
 - [Quick Start](#Quick-Start)
@@ -9,7 +9,6 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 
 ## Quick Start
 (todo)
-
 
 ## Datasets
 
