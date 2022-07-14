@@ -2,9 +2,9 @@
 This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different scenarios.
 
 ## Table of Contents
-- [Quick Start](#Quick-Start)
-- [Datasets](#Datasets)
-- [Partition Settings](#Partition-Settings)
+- [Quick Start](#Quick-Start-🚀)
+- [Datasets](#Datasets-:triangular_ruler:)
+- [Partition Settings](#Partition-Settings-:pushpin:)
 - [Architecture](#Architecture)
 
 ## Quick Start 🚀
