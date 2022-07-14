@@ -14,7 +14,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 
 | IDX | Name             | Type                | Task                        | Node          | Number of nodes | Timespan              | Time granularity | Source                                                                                        |
 |:---:|:----------------:|:-------------------:|:---------------------------:|:-------------:|:---------------:|:---------------------:|:----------------:|:---------------------------------------------------------------------------------------------:|
-|  1  |PEMS-BAY          |Traffic speed        |Traffic forecasting          |Sensors        |325              |01/01/2017 - 31/05/2017|5 min             |[[github]](https://github.com/liyaguang/DCRNN)                                                   |
+|  1  |PEMS-BAY          |Traffic speed        |Traffic forecasting          |Sensors        |325              |01/01/2017 - 31/05/2017|5 min             |[:otocat:](https://github.com/liyaguang/DCRNN)                                                   |
 |  2  |METR-LA           |Traffic speed        |Traffic forecasting          |Sensors        |207              |01/03/2012 - 30/06/2012|5 min             |[[github]](https://github.com/liyaguang/DCRNN)                                                   |
 |  3  |PEMS03            |Traffic speed        |Traffic forecasting          |Sensors        |358              |09/01/2018 - 11/30/2018|5 min             |[[github]](https://github.com/Davidham3/STSGCN)                                                  |
 |  4  |PEMS04            |Traffic speed        |Traffic forecasting          |Sensors        |307              |01/01/2018 - 02/28/2018|5 min             |[[github]](https://github.com/Davidham3/STSGCN)                                                  |
@@ -28,7 +28,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 | 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|
 
 ## Partition Settings
-(todo)
+(todo) :hammer:
 
 ## Architecture
-(todo)
+(todo) :hammer:
