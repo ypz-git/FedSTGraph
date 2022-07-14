@@ -8,7 +8,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 - [Architecture](#Architecture)
 
 ## Quick Start
-(todo) :hammer:
+TODO :hammer:
 
 ## Datasets
 
@@ -28,7 +28,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 | 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|
 
 ## Partition Settings
-(todo) :hammer:
+TODO :hammer:
 
 ## Architecture
-(todo) :hammer:
+TODO :hammer:
