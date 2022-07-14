@@ -2,15 +2,15 @@
 This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different scenarios.
 
 ## Table of Contents
-- [Quick Start](#Quick-Start-🚀)
+- [Quick Start](#Quick-Start)
 - [Datasets](#Datasets-📐)
-- [Partition Settings](#Partition-Settings-📌)
+- [Partition Settings](#Partition-Settings)
 - [Architecture](#Architecture)
 
-## Quick Start 🚀
+## Quick Start
 (todo) :hammer:
 
-## Datasets 📐
+## Datasets
 
 | IDX | Name             | Type                | Task                        | Node          | Number of nodes | Timespan              | Time granularity | Source                                                                                        |
 |:---:|:----------------:|:-------------------:|:---------------------------:|:-------------:|:---------------:|:---------------------:|:----------------:|:---------------------------------------------------------------------------------------------:|
@@ -27,7 +27,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 | 11  |Exchange-Rate     |Exchange rate        |Exchange rate forecasting    |Countries      |8                |01/01/1990 - 12/31/2016|1 day             |[[github]](https://github.com/laiguokun/multivariate-time-series-data)                           |
 | 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|
 
-## Partition Settings 📌
+## Partition Settings
 (todo) :hammer:
 
 ## Architecture
