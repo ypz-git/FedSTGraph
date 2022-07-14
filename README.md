@@ -8,7 +8,7 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 - [Architecture](#Architecture)
 
 ## Quick Start
-(todo)
+(todo) :hammer:
 
 ## Datasets
 
