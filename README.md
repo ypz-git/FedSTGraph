@@ -1,13 +1,16 @@
 # FedSTGraph: A Benchmark of Spatio-Temporal Graphs for Federated Settings 🚧
+
 This repo is a benchmark for spatio-temporal graph data under federated (distributed) scenarios. We collect 12 spatio-temporal datasets among different Real-world scenarios.
 
 ## Table of Contents
+
 - [Quick Start](#Quick-Start)
 - [Datasets](#Datasets-📐)
 - [Partition Settings](#Partition-Settings)
 - [Architecture](#Architecture)
 
 ## Quick Start
+
 TODO :hammer:
 
 ## Datasets
@@ -28,7 +31,9 @@ TODO :hammer:
 | 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|
 
 ## Partition Settings
+
 TODO :hammer:
 
 ## Architecture
+
 TODO :hammer:
