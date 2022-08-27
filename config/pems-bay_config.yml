@@ -1,0 +1,33 @@
+#Config File example
+# Basic
+task: pems-bay_traffic_forecasting_cnum325_dist5_ratio1.0_seed0
+algorithm: cnfgnn
+model: GRU+GN
+pretrain: ''
+# Server
+num_rounds: 20
+proportion: 1.0
+sample: md  # sample_list = ['uniform', 'md']
+aggregate: uniform  # agg_list=['uniform', 'weighted_scale', 'weighted_com']
+learning_rate_decay: 0.998
+weight_decay: 0
+lr_scheduler: -1
+# Client
+num_epochs: 1
+num_steps: 1
+learning_rate: 0.2
+batch_size: 10
+optimizer: SGD  # optimizer_list=['SGD', 'Adam']
+momentum: 0
+# Network
+net_drop: 0
+net_active: 99999
+net_latency: 0
+capability: 0
+# Device
+seed: 0
+gpu: 0
+eval_interval: 1
+num_threads: 1
+num_workers: 0
+test_batch_size: 512

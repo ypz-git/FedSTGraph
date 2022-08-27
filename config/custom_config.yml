@@ -1,0 +1,33 @@
+#Config File example
+basic:
+  task: [FEDTASK_NAME]  # name of fedtask
+  algorithm: [ALGORITHM]  # name of algorithm
+  model: [MODEL]  # name of model
+  pretrain: ''  # the path of the pretrained model parameter created by torch.save
+server:
+  num_rounds: 20  # number of communication rounds
+  proportion: 1.0  # proportion of clients sampled per round
+  sample: md  # sample_list = ['uniform', 'md']
+  aggregate: uniform  # agg_list=['uniform', 'weighted_scale', 'weighted_com']
+  learning_rate_decay: 0.998  # learning rate decay for the training process
+  weight_decay: 0  # weight decay for the training process
+  lr_scheduler: -1  # type of the global learning rate scheduler
+client:
+  num_epochs: 1  # number of epochs when clients train set on data
+  num_steps: 1  # the number of local steps, which dominate num_epochs when setting num_steps>0
+  learning_rate: 0.2  # learning rate for inner solver
+  batch_size: 10  # batch size when clients train set on data
+  optimizer: SGD  # optimizer_list = ['SGD', 'Adam']
+  momentum: 0  # momentum of local update
+network:
+  net_drop: 0
+  net_active: 99999
+  net_latency: 0
+  capability: 0
+device:
+  seed: 0  # seed for random initialization
+  gpu: -1  # GPU ID, -1 for CPU
+  eval_interval: 1  # round number to evaluate once
+  num_threads: 1  # the number of threads in the clients computing session
+  num_workers: 0  # the number of workers of DataLoader
+  test_batch_size: 512  # the batch_size used in testing phase
