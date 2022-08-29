@@ -1,8 +1,8 @@
 # Config File example
 # Basic
 task: metr-la_traffic_forecasting_cnum207_dist5_ratio1.0_seed0
-algorithm: cnfgnn
-model: GRU+GN
+algorithm: fedavg
+model: GRU
 pretrain: ''
 # Server
 num_rounds: 20
