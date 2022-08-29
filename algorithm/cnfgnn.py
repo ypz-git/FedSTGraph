@@ -11,6 +11,7 @@ The total number of samples per batch is (N x B)
 import utils.fmodule
 from .fedbase import BasicServer
 import torch
+from .fedavg import Client
 from torch.utils.data import Dataset, TensorDataset
 from torch_geometric.data import DataLoader, Data
 import torch.nn as nn

@@ -1,4 +1,4 @@
-#Config File example
+# Config File example
 # Basic
 task: pems-bay_traffic_forecasting_cnum325_dist5_ratio1.0_seed0
 algorithm: cnfgnn
@@ -26,7 +26,7 @@ net_latency: 0
 capability: 0
 # Device
 seed: 0
-gpu: 0
+gpu: -1  # GPU ID, -1 for CPU
 eval_interval: 1
 num_threads: 1
 num_workers: 0
