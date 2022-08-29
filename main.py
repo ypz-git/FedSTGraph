@@ -1,10 +1,18 @@
 import utils.fflow as flw
+import argparse
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config', help='name of configuration file;', type=str, default='config/pems-bay_config.yml')
+    args = parser.parse_args()
+    return args
 
 
 def main():
-    config_path = 'config/pems-bay_config.yml'
+    args = get_args()
     # read options
-    option = flw.read_option(config_path)
+    option = flw.read_option(args.config)
     # set random seed
     flw.setup_seed(option['seed'])
     # initialize server
