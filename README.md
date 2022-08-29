@@ -12,14 +12,15 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 ## Quick Start
 
 1. To get a federated partition of METR-LA dataset
-
 ```shell
 python generate_fedtask.py --benchmark metr-la_traffic_forecasting
 ```
+
 2. To train METR-LA in federated system
 ```shell
-python main.py --config config/pems-bay_config.yml
+python main.py --config config/metr-la_config.yml
 ```
+
 3. To get a visualization of the result
 ```shell
 python result_analysis_forecasting.py
