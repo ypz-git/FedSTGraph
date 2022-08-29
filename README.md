@@ -41,7 +41,7 @@ python result_analysis_forecasting.py
 |  9  |Solar-Energy      |Resource consumption |Solar power forecasting      |PV plants      |137              |01/01/2006 - 12/31/2006|10 min            |[[github]](https://github.com/laiguokun/multivariate-time-series-data)                           |                  |
 | 10  |Electricity       |Resource consumption |Electricity usage forecasting|Users          |321              |01/01/2012 - 12/31/2014|1 hour            |[[github]](https://github.com/laiguokun/multivariate-time-series-data)                           |                  |
 | 11  |Exchange-Rate     |Exchange rate        |Exchange rate forecasting    |Countries      |8                |01/01/1990 - 12/31/2016|1 day             |[[github]](https://github.com/laiguokun/multivariate-time-series-data)                           |                  |
-| 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|                  |
+| 12  |SDWPF             |Resource consumption |Wind power forecasting       |Turbogenerators|134              |245 days               |10 min            |[[Baidu KDD CUP 2022]](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction)|:hammer:                  |
 
 ## Partition Settings
 
