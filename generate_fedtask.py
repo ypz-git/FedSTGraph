@@ -4,10 +4,10 @@ import importlib
 
 def read_option():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--benchmark', help='name of the benchmark;', type=str, default='pems04_traffic_forecasting')
+    parser.add_argument('--benchmark', help='name of the benchmark;', type=str, default='metr-la_traffic_forecasting')
     parser.add_argument('--dist', help='type of distribution;', type=int, default=0)
     parser.add_argument('--skew', help='the degree of niid;', type=float, default=0)
-    parser.add_argument('--num_clients', help='the number of clients;', type=int, default=307)
+    parser.add_argument('--num_clients', help='the number of clients;', type=int, default=207)
     parser.add_argument('--seed', help='random seed;', type=int, default=0)
     try: option = vars(parser.parse_args())
     except IOError as msg: parser.error(str(msg))
