@@ -45,7 +45,7 @@ python result_analysis_forecasting.py
 
 ## Partition Settings
 
-For METR-LA & PEMS-BAY dataset, we partition dataset to each client hold one node data.
+For METR-LA & PEMS-BAY dataset, we partition dataset to each client hold one node(sensor) data.
 
 ## Architecture
 
