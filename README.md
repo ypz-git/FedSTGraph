@@ -51,3 +51,5 @@ For METR-LA & PEMS-BAY dataset, we partition dataset to each client hold one nod
 
 TODO :hammer:
 
+P.S. This is basically refer to the older version of [easyFL: A Lightning Framework for Federated Learning](https://github.com/WwZzz/easyFL).
+
