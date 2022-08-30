@@ -4,10 +4,22 @@ This repo is a benchmark for spatio-temporal graph data under federated (distrib
 
 ## Table of Contents
 
+- [Requirements](#Requirements)
 - [Quick Start](#Quick-Start)
 - [Datasets](#Datasets-📐)
 - [Partition Settings](#Partition-Settings)
 - [Architecture](#Architecture)
+
+## Requirements
+
+```txt
+numpy>=1.17.2
+pytorch>=1.3.1
+torchvision>=0.4.2
+matplotlib>=3.1.1
+prettytable>=2.1.0
+ujson>=4.0.2
+```
 
 ## Quick Start
 
